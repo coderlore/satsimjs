@@ -604,7 +604,7 @@ function mixinViewer(viewer, universe, options) {
   const sensorFieldOfRegardButton = toolbar.addToggleButton('FoR', false, (checked) => {
     viewer.showVisual(viewer.sensorForVisualizers, checked);
   });
-  const sensorFieldOfViewButton = toolbar.addToggleButton('FoV', true, (checked) => {
+  const sensorFieldOfViewButton = toolbar.addToggleButton('FoV', false, (checked) => {
     viewer.showVisual(viewer.sensorFovVisualizers, checked);
   });
   const geoButton = toolbar.addToggleButton('GEO', true, (checked) => {
